@@ -10,4 +10,16 @@
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.4"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AlertasEstoque.Shared\AlertasEstoque.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+      <Folder Include="DTOs\" />
+      <Folder Include="Infrastructure\Persistence\Contexts\" />
+      <Folder Include="Infrastructure\Persistence\Repositories\" />
+      <Folder Include="Services\" />
+    </ItemGroup>
+
 </Project>
