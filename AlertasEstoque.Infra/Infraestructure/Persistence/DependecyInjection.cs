@@ -1,4 +1,7 @@
-﻿namespace AlertasEstoque.Api.Infrastructure.Persistence;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace AlertasEstoque.Infra.Infraestructure.Persistence;
 
 public static class DependecyInjection
 {

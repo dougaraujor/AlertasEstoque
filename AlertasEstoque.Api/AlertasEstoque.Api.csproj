@@ -16,13 +16,13 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\AlertasEstoque.Domain\AlertasEstoque.Domain.csproj" />
+      <ProjectReference Include="..\AlertasEstoque.Infra\AlertasEstoque.Infra.csproj" />
       <ProjectReference Include="..\AlertasEstoque.Shared\AlertasEstoque.Shared.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Controllers\" />
-      <Folder Include="DTOs\" />
-      <Folder Include="Infrastructure\Persistence\Repositories\" />
       <Folder Include="Services\" />
     </ItemGroup>
 
