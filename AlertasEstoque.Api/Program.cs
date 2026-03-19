@@ -1,6 +1,5 @@
 
-using AlertasEstoque.Infra.Infraestructure.Persistence;
-
+using AlertasEstoque.Infraestructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AlertasEstoque.Infra.Infraestructure.Persistence;
+namespace AlertasEstoque.Infraestructure.Persistence;
 
 public static class DependecyInjection
 {

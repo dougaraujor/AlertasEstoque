@@ -22,8 +22,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
-      <Folder Include="Services\" />
+      <Folder Include="Controllers\Batch\" />
+      <Folder Include="Controllers\Product\" />
+      <Folder Include="Services\Interfaces\" />
     </ItemGroup>
 
 </Project>

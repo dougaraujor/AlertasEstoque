@@ -11,4 +11,9 @@
       <ProjectReference Include="..\AlertasEstoque.Shared\AlertasEstoque.Shared.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Components\Shared\" />
+      <Folder Include="Services\" />
+    </ItemGroup>
+
 </Project>
