@@ -5,7 +5,7 @@ using AlertasEstoque.Domain.Entities.Defs;
 namespace AlertasEstoque.Domain.Entities.Entidades;
 
 [Table("Entidades")]
-public class Entidades 
+public class Entidade 
 {
     [Key]
     public int Id { get; set; }
